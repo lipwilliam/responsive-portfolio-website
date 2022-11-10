@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> --> <!-- Other Portfolio -->
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Responsive portfolio website Ansel </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://lipwilliam.github.io/Jo-Philippe-WILLIAM-CV/" class="nav__logo">Jo-Philippe WILLIAM</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home' ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user' ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book' ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase' ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-chat' ></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate"></i> Home
+                            </a>
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user"></i> About
+                            </a>
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt"></i> Skills
+                            </a>
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt"></i> Services
+                            </a>
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery"></i> Portfolio
+                            </a>
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-envelope-add"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button" ></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/jo-philippe-william-22556922b/" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-linkedin-square' ></i>
+                            </a>
+
+                            <a href="https://github.com/lipwilliam" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-github' ></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" x='14' y='-40' xlink:href="assets/img/thumbnail_IMG_1074_preview_rev_1.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Jo-Philippe</h1>
+                            <h3 class="home__subtitle">FullStack Developer</h3>
+                            <p class="home__description">Web Development learner</p>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class='bx bx-mouse home__scroll-mouse' ></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class='bx bx-down-arrow-alt home__scroll-arrow' ></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/thumbnail_IMG_1071-removebg-preview.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <!-- Version de base -->
+                            <!-- <div class="about__box">
+                                <i class='bx bx-award about__icon'></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">6 Months Working</span>
+                            </div> -->
+
+                            <!-- Version modifiée pour avoir une ancre lorsque l'on clique sur la div -->
+                            <a href="#skills" class="about__subtitle about__box">
+                                <div>
+                                    <i class='bx bx-award about__icon'></i>
+                                    <h3 class="about__title">Experience</h3>
+                                    <span class="about__subtitle">6 Months Working</span>
+                                </div>
+                            </a>
+
+                            <a href="#work" class="about__subtitle about__box"> <!-- ajout de la class about__box ici au lieu de sur le div pour pouvoir avoir un ancre avec id #work -->
+                                <div>
+                                    <i class='bx bx-briefcase about__icon' ></i>
+                                    <h3 class="about__title">Completed</h3>
+                                    <span class="about__subtitle">5+ Projects</span>
+                                </div>
+                            </a>
+
+                            <a href="#contact" class="about__subtitle about__box">
+                                <div>
+                                    <i class='bx bx-support about__icon' ></i>
+                                    <h3 class="about__title">Support</h3>
+                                    <span class="about__subtitle">Online 24/7</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <p class="about__description">
+                            Full Stack developer, I create web pages with UI / UX and implement databases.
+                            I have half a year of experience and some projects ongoing. I am currently training as a Full Stack developer.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Experience</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Symfony</h3>
+                                        <span class="skills__level">Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check' ></i> -->
+
+                                    <div>
+                                        <h3 class="skills__name"></h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check' ></i> -->
+
+                                    <div>
+                                        <h3 class="skills__name"></h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check' ></i> -->
+
+                                    <div>
+                                        <h3 class="skills__name"></h3>
+                                        <span class="skills__level"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section">
+
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">My portfolio</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work " data-filter="all">All</span>
+                    <span class="work__item" data-filter=".frontend">Frotend</span>
+                    <span class="work__item" data-filter=".backend">Backend</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/Jo-Philippe-WILLIAM-CV/" target="_blank">
+                            <img src="assets/img/work6.png" alt="" class="work__img">
+
+                            <h3 class="work__title">CV</h3>
+
+                            <a href="https://lipwilliam.github.io/Jo-Philippe-WILLIAM-CV/" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/Coffee-Site/#products" target="_blank">
+                            <img src="assets/img/work5.png" alt="" class="work__img">
+
+                            <h3 class="work__title">Coffee Shop</h3>
+
+                            <a href="https://lipwilliam.github.io/Coffee-Site/#products" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix backend">
+                        <a href="https://lipwilliam.github.io/mister_cocktail/" target="_blank">
+                            <img src="assets/img/work8.png" alt="" class="work__img">
+
+                            <h3 class="work__title">Mister Cocktail</h3>
+
+                            <a href="https://lipwilliam.github.io/mister_cocktail/" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/Amazon_like_site_web/" target="_blank">
+                            <img src="assets/img/work4.png" alt="" class="work__img">
+
+                            <h3 class="work__title">Amazon like Site</h3>
+
+                            <a href="https://lipwilliam.github.io/Amazon_like_site_web/" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/ArchiDesign/index.html" target="_blank">
+                            <img src="assets/img/work3.png" alt="" class="work__img">
+
+                            <h3 class="work__title">ArchiDesign</h3>
+
+                            <a href="https://lipwilliam.github.io/ArchiDesign/index.html" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix backend">
+                        <a href="https://lipwilliam.github.io/Form-Exercice/" target="_blank">
+                            <img src="assets/img/work7.png" alt="" class="work__img">
+
+                            <h3 class="work__title">Formulaire création utilisateur</h3>
+
+                            <a href="https://lipwilliam.github.io/Form-Exercice/" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/HelloWorld/index.html" target="_blank">
+                            <img src="assets/img/work2.png" alt="" class="work__img">
+
+                            <h3 class="work__title">Hello World</h3>
+
+                            <a href="https://lipwilliam.github.io/HelloWorld/index.html" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix frontend">
+                        <a href="https://lipwilliam.github.io/New-York/" target="_blank">
+                            <img src="assets/img/work1.png" alt="" class="work__img">
+
+                            <h3 class="work__title">New York Article</h3>
+
+                            <a href="https://lipwilliam.github.io/New-York/" class="work__button" target="_blank">
+                                Demo <i class='bx bx-chevrons-right work__icon'></i>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== TESTIMONIALS ===============-->
+            <section class="testimonial section">
+
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">jw18@hotmail.fr</span>
+
+                                <a href="mailto:jw18@hotmail.fr" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon' ></i>
+                                <h3 class="contact__card-title">LinkedIn</h3>
+                                <span class="contact__card-data">Jo-Philippe William</span>
+
+                                <a href="https://www.linkedin.com/messaging/thread/new/" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon' ></i>
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <span class="contact__card-data">06 95 18 08 06</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=+330695180806&text=Hello, more information!" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Tell me your project</h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" name="user_name" id="contact-name" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="text" name="user_email" id="contact-email" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Project</label>
+                                <textarea name="user_project" id="contact-project" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="button">Send Messsage</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Jo-Philippe WILLIAM</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/jo-philippe-william-22556922b/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/lipwilliam" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Jo-Philipe WILLIAM. All rights reserved.
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    </body>
+</html>
