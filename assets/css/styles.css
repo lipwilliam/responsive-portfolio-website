@@ -796,6 +796,10 @@ body.light-theme {
   .work__filters {
     column-gap: .25rem;
   }
+
+  .contact__card-data {
+    color: var(--text-color);
+  }
 }
 
 /* For medium devices */
