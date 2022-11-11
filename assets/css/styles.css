@@ -769,7 +769,8 @@ body.light-theme {
   }
 
   .home__blob {
-    width: 180px;
+    width: 200px;
+    margin-left: 1rem;
   }
 
   .about__info {
